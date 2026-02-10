@@ -61,7 +61,17 @@ You can see a sample output of the application below:
 
 ---
 
-## 🖼️ How to Add Output Image
+## 🚀 Future Enhancements
 
-1. Take a screenshot of the console output
-2. Rename it to:
+- Ride history per user
+- Driver ratings
+- Ride cancellation
+- Payment simulation
+
+---
+
+## 👨‍💻 Author
+
+Built as a learning project to strengthen **OOP + DSA** skills and for **interview preparation**.
+
+---
