@@ -1,101 +1,67 @@
-🚕 Ride Booking System (Mini Uber / Ola)
+# 🚕 Ride Booking System (Mini Uber / Ola)
 
-An intermediate–advanced Java console application that simulates a real-world ride booking platform similar to Uber/Ola using Object-Oriented Programming, Design Patterns, and Data Structures & Algorithms.
+An object-oriented console-based Ride Booking System built using **Java**, demonstrating strong concepts of **OOP, DSA, and design patterns**.  
+This project simulates booking rides, assigning nearest drivers, and applying different pricing strategies.
 
-This project focuses on backend logic such as driver assignment, fare calculation, and ride lifecycle management.
+---
 
-✨ Features
+## ✨ Features
 
-Add users and drivers
+- User and Driver management
+- Ride booking and completion
+- Nearest driver selection using PriorityQueue
+- Shortest route calculation using Graph (Dijkstra)
+- Dynamic pricing using Strategy Pattern:
+  - Standard Pricing
+  - Surge Pricing
+  - Discount Pricing
+- Active ride tracking using HashMap
+- Menu-driven console interface
 
-Book rides with nearest driver selection
+---
 
-Fare calculation using shortest path (Dijkstra’s Algorithm)
+## 🧠 Concepts Used
 
-Dynamic pricing:
+### Object-Oriented Programming
+- Abstraction
+- Inheritance
+- Polymorphism
+- Encapsulation
+- Strategy Design Pattern
 
-Standard Fare
+### Data Structures & Algorithms
+- HashMap → Active rides tracking
+- PriorityQueue → Nearest driver selection
+- Graph → Shortest path (Dijkstra’s Algorithm)
 
-Surge Pricing
+---
 
-Discount Pricing
+## 🛠️ Technologies
 
-Complete rides
+- Java
+- Eclipse IDE
+- Console-based application
 
-View active rides
+---
 
-View ride history per user
+## ▶️ How to Run
 
-Menu-driven console interface
+1. Open the project in **Eclipse**
+2. Locate the `Main` class
+3. Right-click → **Run As → Java Application**
+4. Follow the on-screen menu to book rides
 
-🧠 Concepts Used
-Object-Oriented Programming
+---
 
-Classes: User, Driver, Ride
+## 📸 Sample Output
 
-Encapsulation & Abstraction
+You can see a sample output of the application below:
 
-Inheritance & Polymorphism
+![Ride Booking Output](output.png)
 
-Clean separation of model and service layers
+---
 
-Design Patterns
+## 🖼️ How to Add Output Image
 
-Strategy Pattern → Pricing strategies (Standard, Surge, Discount)
-
-Data Structures & Algorithms
-
-HashMap → Users, drivers, active rides, ride history
-
-PriorityQueue → Nearest driver selection
-
-Graph + Dijkstra’s Algorithm → Shortest distance & fare calculation
-
-List → Ride history storage
-
-🛠️ Technologies Used
-
-Java
-
-Eclipse IDE
-
-Java Collections Framework
-
-▶️ How to Run
-
-Clone or download the repository
-
-Open the project in Eclipse IDE
-
-Run the Main.java file
-
-Use the menu to:
-
-Add users and drivers
-
-Book and complete rides
-
-Switch pricing strategies
-
-View rides and history
-
-📸 Output Screenshot
-
-Below is a sample output of the Ride Booking System:
-
-📌 Future Enhancements
-
-GPS-based distance calculation
-
-Driver ratings & reviews
-
-Payment integration
-
-Database support (MySQL / MongoDB)
-
-REST API using Spring Boot
-
-👩‍💻 Author
-
-Renita Jasmine T.
-Java | OOP | DSA | Backend Development
+1. Take a screenshot of the console output
+2. Rename it to:
